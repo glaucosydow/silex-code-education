@@ -6,3 +6,4 @@
     * 1.3 - Complementando
     * 1.4 - Instalando o Silex
     * 1.5 - Configurando o Silex
+    * 1.6 - Falando sobre Responses
