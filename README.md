@@ -2,3 +2,4 @@
 
 * 1 - Iniciando
     * 1.1 - Introdução a SOA
+    * 1.2 - SOA
