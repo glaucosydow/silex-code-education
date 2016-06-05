@@ -2,6 +2,8 @@
 
 require_once __DIR__.'/../bootstrap.php';
 
+use Code\Sistema\Entity\Cliente;
+use Code\Sistema\Mapper\ClienteMapper;
 use Code\Sistema\Service\ClienteService;
 
 $app->get('/', function () {
@@ -17,7 +19,10 @@ $app->get('/cliente', function () use ($app) {
     $dados['nome'] = 'Cliente';
     $dados['email'] = 'cliente@email.com';
 
-    $clienteService = new ClienteService();
+    $clienteEntity = new Cliente();
+    $clienteMapper = new ClienteMapper();
+
+    $clienteService = new ClienteService($clienteEntity, $clienteMapper);
     $resultado = $clienteService->insert($dados);
 
     return $app->json($resultado);
