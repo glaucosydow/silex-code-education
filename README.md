@@ -1,2 +1,1 @@
-# silex-code-education
-Curso Silex e API - School of Net
+# Curso Silex e APIs - School of Net
