@@ -9,3 +9,6 @@
     * 1.6 - Falando sobre Responses
     * 1.7 - Debug
     * 1.8 - Parâmetros
+
+* 2 - Serviços
+    * 2.1 - Mudando o autoload
