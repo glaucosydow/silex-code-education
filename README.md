@@ -14,3 +14,4 @@
     * 2.1 - Mudando o autoload
     * 2.2 - Criando a estrutura de Cliente
     * 2.3 - Criando controller do Cliente
+    * 2.4 - Criando ClienteService
