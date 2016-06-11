@@ -21,3 +21,4 @@
 * 3 - Twig
     * 3.1 - Instalando o Twig
     * 3.2 - Renderizando
+    * 3.3 - Listando dados

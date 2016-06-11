@@ -13,4 +13,20 @@ class ClienteMapper
             'email' => 'clientex@email.com'
         ];
     }
+
+    public function fetchAll()
+    {
+        $dados = [
+            [
+                'nome' => 'Cliente 1',
+                'email' => 'cliente1@email.com'
+            ],
+            [
+                'nome' => 'Cliente 2',
+                'email' => 'cliente2@email.com'
+            ]
+        ];
+
+        return $dados;
+    }
 }
