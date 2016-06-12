@@ -19,6 +19,14 @@ $app['ClienteService'] = function () {
 //PUT     /api/clientes/2
 //DELETE  /api/clientes/2 - Deleta o cliente
 
+$app->get('/api/clientes', function () use ($app) {
+    $clientes = $app['ClienteService']->fetchAll();
+    return $app->json($clientes);
+});
+
+
+
+
 $app->get('/', function () use ($app) {
     return $app['twig']->render('index.twig', []);
 })->bind('index');
