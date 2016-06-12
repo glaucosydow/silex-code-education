@@ -13,6 +13,12 @@ $app['ClienteService'] = function () {
     return $clienteService;
 };
 
+//GET     /api/clientes   - Listar todos os clientes
+//GET     /api/clientes/3 - Lista apenas um cliente passando o ID por parâmetro
+//POST    /api/clientes   - Insere novo cliente
+//PUT     /api/clientes/2
+//DELETE  /api/clientes/2 - Deleta o cliente
+
 $app->get('/', function () use ($app) {
     return $app['twig']->render('index.twig', []);
 })->bind('index');

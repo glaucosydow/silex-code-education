@@ -24,3 +24,6 @@
     * 3.3 - Listando dados
     * 3.4 - Linkando
     * 3.5 - Layouts
+
+* 4 - Apis
+    * 4.1 - Falando dos métodos HTTP
