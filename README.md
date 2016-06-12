@@ -28,3 +28,4 @@
 * 4 - Apis
     * 4.1 - Falando dos métodos HTTP
     * 4.2 - Listando clientes
+    * 4.3 - Listando apenas 1 cliente

@@ -24,7 +24,10 @@ $app->get('/api/clientes', function () use ($app) {
     return $app->json($clientes);
 });
 
-
+$app->get('/api/clientes/{id}', function ($id) use ($app) {
+    $clientes = $app['ClienteService']->find($id);
+    return $app->json($clientes);
+});
 
 
 $app->get('/', function () use ($app) {
