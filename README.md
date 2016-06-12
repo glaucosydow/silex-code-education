@@ -30,3 +30,4 @@
     * 4.2 - Listando clientes
     * 4.3 - Listando apenas 1 cliente
     * 4.4 - Criando um cliente
+    * 4.5 - Alterando e removendo

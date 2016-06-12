@@ -21,7 +21,23 @@ class ClienteMapper
 
     public function insert(Cliente $cliente)
     {
-        return ['success' => true];
+        return [
+            'success' => true
+        ];
+    }
+
+    public function update($id, $cliente)
+    {
+        return [
+            'success' => true
+        ];
+    }
+
+    public function delete($id)
+    {
+        return [
+            'success' => true
+        ];
     }
 
     public function fetchAll()
