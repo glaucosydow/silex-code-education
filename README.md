@@ -29,3 +29,4 @@
     * 4.1 - Falando dos métodos HTTP
     * 4.2 - Listando clientes
     * 4.3 - Listando apenas 1 cliente
+    * 4.4 - Criando um cliente

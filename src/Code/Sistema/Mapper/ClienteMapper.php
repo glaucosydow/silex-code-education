@@ -21,10 +21,7 @@ class ClienteMapper
 
     public function insert(Cliente $cliente)
     {
-        return [
-            'nome' => 'Cliente x',
-            'email' => 'clientex@email.com'
-        ];
+        return ['success' => true];
     }
 
     public function fetchAll()
